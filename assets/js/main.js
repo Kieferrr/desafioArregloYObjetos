@@ -1,0 +1,1 @@
+import { propiedades_alquiler, propiedades_venta } from './propiedades.js';
