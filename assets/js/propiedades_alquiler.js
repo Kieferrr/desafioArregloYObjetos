@@ -12,7 +12,7 @@ for (let alquiler of propiedades_alquiler) {
                     <h5 class="card-title">${alquiler.nombre}</h5>
                     <p class="card-text">${alquiler.descripcion}</p>
                     <p>
-                    <i class="fas fa-map-marker-alt"></i>${alquiler.ubicacion}</p>
+                    <i class="fas fa-map-marker-alt"></i> ${alquiler.ubicacion}</p>
                     <p>
                     <i class="fas fa-bed"></i> ${alquiler.habitaciones} Habitaciones |
                     <i class="fas fa-bath"></i> ${alquiler.baños} Baños</p>

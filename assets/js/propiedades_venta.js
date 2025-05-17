@@ -12,7 +12,7 @@ for (let venta of propiedades_venta) {
                     <h5 class="card-title">${venta.nombre}</h5>
                     <p class="card-text">${venta.descripcion}</p>
                     <p>
-                    <i class="fas fa-map-marker-alt"></i>${venta.ubicacion}</p>
+                    <i class="fas fa-map-marker-alt"></i> ${venta.ubicacion}</p>
                     <p>
                     <i class="fas fa-bed"></i> ${venta.habitaciones} Habitaciones |
                     <i class="fas fa-bath"></i> ${venta.baños} Baños</p>
