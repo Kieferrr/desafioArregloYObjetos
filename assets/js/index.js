@@ -2,7 +2,8 @@ import { propiedades_venta, propiedades_alquiler } from './propiedades.js'
 
 let htmlVentas = ''
 
-for (let venta of propiedades_venta) {
+for (let i = 0; i < 3; i++) {
+    let venta = propiedades_venta[i]
     htmlVentas += `
         <div class="col-md-4 mb-4">
             <div class="card">
@@ -12,7 +13,7 @@ for (let venta of propiedades_venta) {
                     <h5 class="card-title">${venta.nombre}</h5>
                     <p class="card-text">${venta.descripcion}</p>
                     <p>
-                    <i class="fas fa-map-marker-alt"></i>${venta.ubicacion}</p>
+                    <i class="fas fa-map-marker-alt"></i> ${venta.ubicacion}</p>
                     <p>
                     <i class="fas fa-bed"></i> ${venta.habitaciones} Habitaciones |
                     <i class="fas fa-bath"></i> ${venta.baños} Baños</p>
@@ -40,7 +41,8 @@ divVentas.innerHTML = htmlVentas
 
 let htmlAlquileres = ''
 
-for (let alquiler of propiedades_alquiler) {
+for (let i = 0; i < 3; i++) {
+    let alquiler = propiedades_alquiler[i]
     htmlAlquileres += `
         <div class="col-md-4 mb-4">
             <div class="card">
@@ -50,7 +52,7 @@ for (let alquiler of propiedades_alquiler) {
                     <h5 class="card-title">${alquiler.nombre}</h5>
                     <p class="card-text">${alquiler.descripcion}</p>
                     <p>
-                    <i class="fas fa-map-marker-alt"></i>${alquiler.ubicacion}</p>
+                    <i class="fas fa-map-marker-alt"></i> ${alquiler.ubicacion}</p>
                     <p>
                     <i class="fas fa-bed"></i> ${alquiler.habitaciones} Habitaciones |
                     <i class="fas fa-bath"></i> ${alquiler.baños} Baños</p>
