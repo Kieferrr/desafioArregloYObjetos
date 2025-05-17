@@ -8,7 +8,7 @@ export const propiedades_alquiler = [
         baños: 2,
         costo: 2000,
         smoke: false,
-        pets: true
+        pets: true,
     },
     {
         nombre: "Apartamento luminoso con vista al mar",
@@ -19,7 +19,7 @@ export const propiedades_alquiler = [
         baños: 3,
         costo: 2500,
         smoke: true,
-        pets: true
+        pets: true,
     },
     {
         nombre: "Condominio moderno en zona residencial",
@@ -30,7 +30,7 @@ export const propiedades_alquiler = [
         baños: 2,
         costo: 2200,
         smoke: false,
-        pets: false
+        pets: false,
     },
 ];
 
@@ -55,7 +55,7 @@ export const propiedades_venta = [
         baños: 1,
         costo: 1200,
         smoke: true,
-        pets: true
+        pets: true,
     },
     {
         nombre: "Penthouse de lujo con terraza panorámica",
@@ -66,6 +66,39 @@ export const propiedades_venta = [
         baños: 3,
         costo: 4500,
         smoke: false,
-        pets: true
+        pets: true,
+    },
+    {
+        nombre: "Cabaña familiar en el bosque",
+        src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/346265312.jpg?k=9d95aa024e87c34be4686335f87bbafcd38d9e9b16dcffb5f3c479832883e352&o=&hp=1",
+        descripcion: "Esta cabaña está en el bosque cerca de la ruta principal perfecta para familias",
+        ubicacion: "456 Pinewood Trail, Whispering Forest, CA 98765",
+        habitaciones: 3,
+        baños: 2,
+        costo: 1800,
+        smoke: true,
+        pets: true, 
+    },
+    {
+    nombre: "Casa moderna en Greenfield",
+    src: "https://ventramelidecor.com.br/wp-content/uploads/2024/05/casa-moderna-linhas-retas.jpg",
+    descripcion: "Diseño contemporáneo en una comunidad con vigilancia, cerca de escuelas y parques.",
+    ubicacion: "456 Cedar Lane, Greenfield Suburb, CA 94501",
+    habitaciones: 3,
+    baños: 2,
+    costo: 1500,
+    smoke: true,
+    pets: true,
+    },
+    {
+    nombre: "Chalet acogedor en zona boscosa",
+    src: "https://thumbs.dreamstime.com/b/d-renderizado-de-chalet-acogedor-moderno-y-con-piscina-aparcamiento-en-venta-o-alquiler-hermosas-monta%C3%B1as-forestales-el-fondo-216513421.jpg",
+    descripcion: "Chalet ideal para familias, rodeado de pinos y senderos para caminar.",
+    ubicacion: "742 Spruce Path, Cedar Valley, CA 95928",
+    habitaciones: 5,
+    baños: 3,
+    costo: 2500,
+    smoke: false,
+    pets: true,
     },
 ]
